@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fdfdfd;
+  box-shadow: 1px 2px 2px 1px #afafaf;
+  margin: 10px;
+  padding: 20px;
+  min-height: 100px;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card > div {
+  font-size: 2rem;
+}

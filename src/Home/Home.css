@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.enter-btn {
+  font-size: 1.5rem;
+  margin: 10px;
+  border-radius: 10px;
+  background: #594ad0;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.enter-btn:disabled {
+  background: grey;
+}
+
+.name-field {
+  font-size: 1.5rem;
+  margin: 10px;
+  border-radius: 2px;
+  background: none;
+  color: white;
+  outline: none;
+  padding: 5px;
+  text-align: center;
+  border-width: 0 0 2px;
+}
+
+.enter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-msg {
+  color: red;
+  font-size: 1rem;
+}

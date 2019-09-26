@@ -1,0 +1,21 @@
+header {
+  background: #282c34;
+  padding: 20px;
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+}
+
+.user-container {
+  text-align: right;
+}
+
+.user-icon {
+  margin-left: 10px;
+  font-size: 2rem;
+}
