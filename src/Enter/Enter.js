@@ -26,7 +26,6 @@ class Enter extends Component {
   };
 
   onSectionClicked = name => {
-    debugger;
     const section = this.state.sections.find(section => section.name === name);
     this.props.history.push(section.link);
   }
